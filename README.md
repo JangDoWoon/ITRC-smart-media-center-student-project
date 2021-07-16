@@ -18,12 +18,14 @@
 3)	네이버 평점시스템에 평가를 하지 않은 영화는 평점과 리뷰 수를 0으로 가정함.
 4)	홀드백은 월 단위로 계산하였음.
 ## 회귀분석 결과 비교를 통한 인사이트 도출
-*![image](https://user-images.githubusercontent.com/67357059/125893892-b560ac1a-cecf-4275-ab2a-1a94a50122fc.png)
+*
+![image](https://user-images.githubusercontent.com/67357059/125893892-b560ac1a-cecf-4275-ab2a-1a94a50122fc.png)
 *	모델1 : 평점은 VOD 관객수에 대해 유의함. (+)
 *	모델2 : 평점은 영화관 관객수에 대해 유의하지 않음.
 * 원인 : 평점의 경우 대부분 영화를 본 후 남기기 때문에 영화관 관객수에 유의하지 않게 나옴.
 *	결과 : 영화관 관객수와 관계없이 평점이 높은 영화는 VOD 시장에서 인기가 있음.
-*![image](https://user-images.githubusercontent.com/67357059/125893923-7b9726cf-4d2f-4bcb-b288-00e4eead0fe1.png)
+*
+![image](https://user-images.githubusercontent.com/67357059/125893923-7b9726cf-4d2f-4bcb-b288-00e4eead0fe1.png)
 *	모델1 : 청소년 관람불가는 VOD 관객수에 대해 유의함. (+)
 *	모델2 : 청소년 관람불가는 영화관 관객수에 대해 유의하지 않음.
 *	원인 : 우리나라 특성상 다른 사람들이 있는 영화관에서 성인영화를 보지 않으며, 영화관에서 보지 못한 영화들을 집에서 VOD 형태로 시청하는 경우가 많음.
@@ -35,7 +37,8 @@
 극장에서 영화를 볼 수 없는 청소년이 많을 것으로 예상됨.
 *	결과 : 아래 그림과 같이 한국형 범죄영화들은 VOD시장에서 상당히 인기가 있음.
 ![image](https://user-images.githubusercontent.com/67357059/125893964-2d1640e7-325d-421b-bba0-5dd9306dc429.png)
-*![image](https://user-images.githubusercontent.com/67357059/125893968-d307e206-cb8f-4336-a656-3fed8894eeca.png)
+*
+![image](https://user-images.githubusercontent.com/67357059/125893968-d307e206-cb8f-4336-a656-3fed8894eeca.png)
 
 
 
